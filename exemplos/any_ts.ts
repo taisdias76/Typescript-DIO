@@ -1,0 +1,12 @@
+//any é um tipo que pode receber qualquer tipo
+let valorAny: any;
+valorAny = 3;
+valorAny = 'ola';
+valorAny = true;
+
+let valorString:string = 'teste';
+valorString = valorAny;
+
+function somarString(string1: string, string2: string){
+    console.log(string1 + string2);
+}

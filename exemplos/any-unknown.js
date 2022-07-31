@@ -1,0 +1,13 @@
+"use strict";
+let anyAgain;
+anyAgain = 3;
+anyAgain = 'teste';
+anyAgain = 5;
+let stringTeste = 'verificar';
+stringTeste = anyAgain;
+let unknownValor;
+unknownValor = 3;
+unknownValor = 'opa';
+unknownValor = true;
+unknownValor = 'vai sim';
+let stringTest2 = 'agora vai';
